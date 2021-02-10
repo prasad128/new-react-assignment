@@ -57,7 +57,7 @@ function InfoBar({ time, color, num, table, setTable, data }) {
         <div className="ml-4">
           RFQList<span className="text-xs">{num}</span>
         </div>
-        <div className="ml-9">
+        <div className="cursor-pointer ml-9">
           <CsvDownloader
             filename="productDetails"
             columns={columns}
